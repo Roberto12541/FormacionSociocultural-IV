@@ -31,6 +31,13 @@
     }
 }
 
+@media(min-width:576px){
+    .home{
+        flex-direction: row;
+        height: 70vh;
+    }
+}
+
 .programa{
     height: 90vh;
     background-image: url("../../img/bg-2.svg");
@@ -40,6 +47,7 @@
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
     .texto{
         h2{
             color: #7569de;
@@ -62,4 +70,48 @@
             background-color: #fff;
         }
     }
+}
+
+// .proyectos{
+//     height: 90vh;
+//     background-image: url("../../img/bg-3.svg");
+//     background-size: cover;
+//     background-position: center bottom;
+//     background-repeat: no-repeat;
+//     padding: 0px 20px;
+//     .galeria{
+//         display: grid;
+//         grid-template-areas: 
+//             "proyecto1 proyecto2 texto texto"
+//             "proyecto3 proyecto4 proyecto4 proyecto6"
+//             "proyecto5 proyecto4 proyecto4 .";
+//     }
+//     .texto{
+//         grid-area: texto;
+//     }
+//     .proyecto1{
+//         grid-area: proyecto1;
+//     }
+//     .proyecto2{
+//         grid-area: proyecto2;
+//     }
+//     .proyecto3{
+//         grid-area: proyecto3;
+//     }
+//     .proyecto4{
+//         grid-area: proyecto4;
+//     }
+//     .proyecto5{
+//         grid-area: proyecto5;
+//     }
+//     .proyecto6{
+//         grid-area: proyecto6;
+//     }
+// }
+
+.opiniones{
+    width: 90%;
+    height: 80px;
+    background-color: #7669df;
+    margin: 20px auto;
 }

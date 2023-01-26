@@ -129,6 +129,12 @@ header .container__header #icon_menu {
   width: 100%;
 }
 
+@media (min-width: 576px) {
+  .home {
+    flex-direction: row;
+    height: 70vh;
+  }
+}
 .programa {
   height: 90vh;
   background-image: url("../../img/bg-2.svg");
@@ -138,6 +144,7 @@ header .container__header #icon_menu {
   padding: 0px 20px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .programa .texto h2 {
   color: #7569de;
@@ -158,6 +165,13 @@ header .container__header #icon_menu {
   width: 110px;
   height: 110px;
   background-color: #fff;
+}
+
+.opiniones {
+  width: 90%;
+  height: 80px;
+  background-color: #7669df;
+  margin: 20px auto;
 }
 
 /*# sourceMappingURL=style.css.map */
