@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #f3f6fb;
+  background: url("../../img/bg-1.svg") top no-repeat, url("../../img/bg-2.svg") center center no-repeat, url("../../img/bg-3.svg") bottom center no-repeat;
 }
 
 header {
@@ -99,10 +99,6 @@ header .container__header #icon_menu {
   }
 }
 .home {
-  background-image: url("../../img/bg-1.svg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -137,10 +133,6 @@ header .container__header #icon_menu {
 }
 .programa {
   height: 90vh;
-  background-image: url("../../img/bg-2.svg");
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
   padding: 0px 20px;
   display: flex;
   flex-direction: column;

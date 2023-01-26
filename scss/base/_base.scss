@@ -18,5 +18,8 @@
     font-family: MuseoSansRounded;
 }
 body{
-    background-color: #f3f6fb;
+    background: 
+        url("../../img/bg-1.svg") top no-repeat,
+        url("../../img/bg-2.svg") center center no-repeat,
+        url("../../img/bg-3.svg") bottom center no-repeat;
 }
