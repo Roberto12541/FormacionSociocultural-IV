@@ -1,12 +1,163 @@
-.colorVerde{
-    color: green;
+@font-face {
+  font-family: MuseoSansRounded;
+  src: url("../../css/font/MuseoSansRounded100.otf"), url("../../css/font/MuseoSansRounded300.otf"), url("../../css/font/MuseoSansRounded500.otf"), url("../../css/font/MuseoSansRounded700.otf"), url("../../css/font/MuseoSansRounded900.otf"), url("../../css/font/MuseoSansRounded1000.otf");
 }
-.colorRojo{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: MuseoSansRounded;
+}
 
+body {
+  background-color: #f3f6fb;
 }
-.colorAmarillo{
 
+header {
+  position: absolute;
+  width: 100%;
+  height: 60px;
 }
-.colorAzul{
+header .container__header {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container__header i {
+  color: white;
+}
+header .container__header a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+header .container__header .menu {
+  height: 0px;
+  position: absolute;
+  right: 5px;
+  top: 65px;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0px 0px 30px -20px rgba(0, 0, 0, 0.5);
+  transition: all 300ms;
+}
+header .container__header .menu nav ul {
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+}
+header .container__header .menu nav ul li {
+  list-style: none;
+  padding: 10px 40px;
+}
+header .container__header .menu nav ul li .item-nav, header .container__header .menu nav ul li .item-nav-activo {
+  font-size: 16px;
+  text-decoration: none;
+  transition: opacity 300ms;
+  color: gray;
+}
+header .container__header .menu nav ul li .item-nav-activo {
+  color: black;
+}
+header .container__header .mostrar_menu {
+  height: 235px;
+}
+header .container__header #icon_menu {
+  display: block;
+  cursor: pointer;
+  font-size: 24px;
+}
 
+@media (min-width: 768px) {
+  header .container__header {
+    padding: 0px 50px;
+  }
+  header .container__header #icon_menu {
+    display: none;
+  }
+  header .container__header .menu {
+    position: relative;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    height: auto;
+  }
+  header .container__header .menu nav ul {
+    flex-direction: row;
+    padding: 0;
+    gap: 20px;
+  }
+  header .container__header .menu nav ul li {
+    padding: 0;
+  }
 }
+.home {
+  background-image: url("../../img/bg-1.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.home .texto h1 {
+  color: white;
+  font-weight: 1000;
+}
+.home .texto p {
+  color: white;
+}
+.home .texto a {
+  background-color: #9ecb46;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.home .img img {
+  width: 100%;
+}
+
+.programa {
+  height: 90vh;
+  background-image: url("../../img/bg-2.svg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.programa .texto h2 {
+  color: #7569de;
+  font-weight: 1000;
+}
+.programa .bloques {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.programa .bloques .bloque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 110px;
+  height: 110px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

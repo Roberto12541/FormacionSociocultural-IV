@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -12,54 +13,64 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand colorPrimario fw-semibold" href="#">Sociocultural IV </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad I
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Inteligencias Multiples</a></li>
-                            <li><a class="dropdown-item" href="#">5 Mentes del futuro</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad II
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad III
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
+    
+    <header>
+        <div class="container__header">
+            <a href="./index.html">Formacion Sociocultural</a>
+            <div class="menu bg-blanco">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html" class="item-nav-activo">Inicio</a></li>
+                        <li><a href="./pages/productos.html" class="item-nav">Productos</a></li>
+                        <li><a href="./pages/sobre-nosotros.html" class="item-nav">Quienes somos</a></li>
+                        <li><a href="./pages/reseñas.html" class="item-nav">Reseñas</a></li>
+                        <li><a href="./pages/contacto.html" class="item-nav">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="texto">
+            <h1>Formacion Sociocultural</h1>
+            <p>Actuar con valores y actitudes proactivas, creativas y emprendedoras, en su desarrollo personal, social, yo anizacional en armonía con su medio ambiente.</p>
+            <a href="">Conocer mas</a>
+        </div>
+        <div class="img">
+            <img src="img/estudiantes.png" alt="">
+        </div>
+    </section>
+
+    <section class="programa">
+        <div class="texto">
+            <h2>Conoce el programa</h2>
+            <p>Explora los bloques del programa y desarrolla ideas innovadoras, mediante el uso de técnicas de creatividad, o estimular la generación de nuevos negocios que contribuyan al desarrollo económico y social del entorno.</p>
+        </div>
+        <div class="bloques">
+            <div class="bloque">
+                <div class="bloque_texto">
+                    Unidad I
+                </div>
+                <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="bloque">
+                <div class="bloque_texto">
+                    Unidad II
+                </div>
+                <i class="fa-solid fa-book"></i>
+            </div>
+            <div class="bloque">
+                <div class="bloque_texto">
+                    Unidad III
+                </div>
+                <i class="fa-solid fa-school"></i>
             </div>
         </div>
-    </nav>
+    </section>
+
+    <script src="./js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>

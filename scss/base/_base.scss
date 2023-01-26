@@ -1,0 +1,22 @@
+@font-face {
+    font-family: MuseoSansRounded;
+    src: 
+    url('../../css/font/MuseoSansRounded100.otf'),
+    url('../../css/font/MuseoSansRounded300.otf'),
+    url('../../css/font/MuseoSansRounded500.otf'),
+    url('../../css/font/MuseoSansRounded700.otf'),
+    url('../../css/font/MuseoSansRounded900.otf'),
+    url('../../css/font/MuseoSansRounded1000.otf')
+    ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: MuseoSansRounded;
+}
+body{
+    background-color: #f3f6fb;
+}
