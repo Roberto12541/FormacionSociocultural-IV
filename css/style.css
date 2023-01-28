@@ -12,7 +12,7 @@
 }
 
 body {
-  background: url("../../img/bg-1.svg") top no-repeat, url("../../img/bg-2.svg") center center no-repeat, url("../../img/bg-3.svg") bottom center no-repeat;
+  background: url("../img/bg-1.svg") top no-repeat, url("../img/bg-2.svg") center center no-repeat, url("../img/bg-3.svg") bottom center no-repeat;
 }
 
 header {
