@@ -285,10 +285,5 @@ footer .contenedor__footer a {
     width: 30%;
   }
 }
-@media (min-width: 1200px) {
-  .contenedor__tema {
-    max-height: 70vh;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
