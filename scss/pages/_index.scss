@@ -8,6 +8,18 @@
         align-items: center;
         justify-content: center;
         padding: 50px 20px;
+        .texto a{
+            border: none;
+            padding: 5px 20px;
+            background-color: #525fe1;
+            color: white;
+            border-radius: 5px;
+            &:hover{
+                background-color: #f9fbfc;
+                border: solid 1px #525fe1;
+                color: #525fe1;
+            }
+        }
     }
     & img{
         width: 100%;
@@ -94,13 +106,13 @@
     .contenedor__home{
         height: 80vh;
         .home{
-            max-width: 1200px;
+            max-width: 1080px;
             margin: auto;
         }
     }
     .contenedor__programa{
         .programa{
-            max-width: 1200px;
+            max-width: 900px;
             margin: auto;
         }
     }
