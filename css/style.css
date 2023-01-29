@@ -8,6 +8,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: MuseoSansRounded;
+  scroll-behavior: smooth;
 }
 
 a {
