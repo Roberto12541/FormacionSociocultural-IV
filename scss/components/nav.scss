@@ -11,15 +11,16 @@ header{
         justify-content: space-between;
         align-items: center;
         i{
-            color: white;
+            color: #525fe1;
         }
         & a{
-            color: white;
+            color: #525fe1;
             font-weight: bold;
             font-size: 20px;
             text-decoration: none;
         }
         & .menu{
+            background-color: #f9fbfc;
             height: 0px;
             position: absolute;
             right: 5px;
@@ -41,7 +42,7 @@ header{
                         transition: opacity 300ms;
                         color: gray;
                         &-activo{
-                            color: black;
+                            color: #525fe1;
                             @extend .item-nav;
                         }
                     }
