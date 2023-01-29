@@ -257,5 +257,31 @@ footer .contenedor__footer a {
   justify-content: center;
   gap: 20px;
 }
+.contenedor__info .info h2 {
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .contenedor__tema {
+    height: auto;
+  }
+  .contenedor__tema .tema {
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .separacion__info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .separacion__info .accordion {
+    width: 80%;
+  }
+  .separacion__info .lateral {
+    width: 30%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

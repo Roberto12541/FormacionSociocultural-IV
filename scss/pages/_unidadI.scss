@@ -27,5 +27,31 @@
         flex-direction: column;
         justify-content: center;
         gap: 20px;
+        h2{
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+@media(min-width:576px){
+    .contenedor__tema{
+        height: auto;
+        .tema{
+            flex-direction: row;
+        }
+    }
+}
+@media(min-width:768px){
+    .separacion__info{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        .accordion{
+            width: 80%;
+        }
+        .lateral{
+            width: 30%;
+        }
     }
 }
