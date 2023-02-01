@@ -192,6 +192,30 @@ footer .contenedor__footer a {
   transition: all 300ms;
 }
 
+.galeriaIndex {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.galeriaIndex .carousel .carousel-item {
+  max-height: 60vh;
+}
+.galeriaIndex .carousel .carousel-item img {
+  filter: brightness(0.4);
+}
+
+.formularios {
+  width: 100%;
+  padding: 20px;
+}
+.formularios .contenedor__formularios {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.formularios .contenedor__formularios .contenedor__cards {
+  margin: 20px 0px;
+}
+
 @media (min-width: 576px) {
   .contenedor__home {
     height: 50vh;

@@ -65,7 +65,32 @@
 }
 
 .galeriaIndex{
-    
+    max-width: 900px;
+    margin: 0 auto;
+    .carousel{
+        .carousel-item {
+            max-height: 60vh;
+            img{
+                filter: brightness(0.4);
+            }
+        }
+    }
+}
+
+.formularios{
+    width: 100%;
+    padding: 20px;
+    .contenedor__formularios{
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+        .contenedor__cards{
+            margin: 20px 0px;
+            // .card{
+            //     max-width: 18rem;
+            // }
+        }
+    }
 }
 
 @media (min-width:576px){
