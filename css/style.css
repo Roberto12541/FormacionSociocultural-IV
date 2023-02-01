@@ -312,6 +312,27 @@ footer .contenedor__footer a {
   text-align: center;
 }
 
+.prueba {
+  width: 100%;
+}
+.prueba .contenedor__pruebas {
+  padding: 20px;
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+}
+.prueba .contenedor__pruebas .forms {
+  width: 100%;
+  height: 480px;
+  border-radius: 10px;
+}
+
+#circulo {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
 @media (min-width: 576px) {
   .contenedor__tema {
     height: auto;
