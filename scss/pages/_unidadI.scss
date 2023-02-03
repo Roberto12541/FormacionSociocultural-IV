@@ -25,6 +25,7 @@
         }
     }
     & img{
+        max-height: 350px;
         width: 100%;
     }
 }
@@ -45,6 +46,11 @@
         h2{
             color: white;
             text-align: center;
+        }
+        .accordion .accordion-item .accordion-body{
+            p{
+                text-align: justify;
+            }
         }
     }
 }
@@ -92,7 +98,8 @@
     }
     .separacion__info{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        width: 100%;
         gap: 10px;
         .accordion{
             width: 80%;
