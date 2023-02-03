@@ -383,6 +383,11 @@ footer {
 .contenedor__info .info .accordion .accordion-item .accordion-body p {
   text-align: justify;
 }
+.contenedor__info .info .accordion .accordion-item .accordion-body img {
+  width: 100%;
+  max-width: 80%;
+  border-radius: 15px;
+}
 
 .prueba {
   width: 100%;
