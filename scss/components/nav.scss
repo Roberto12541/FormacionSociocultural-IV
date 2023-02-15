@@ -85,3 +85,26 @@ header{
         }
     }
 }
+
+.navbar{
+    height: 65px;
+    .container{
+        .navbar-brand{
+            color: #525fe1;
+            font-family: MuseoSansRounded;
+            font-weight: 1000;
+        }
+        .navbar-toggler-icon{
+            width: 25px;
+            height: 25px;
+            padding: 0;
+        }
+        #navbarNavDropdown{
+            background-color: #f9fbfc;
+        }
+        .navbar-toggler{
+            border: none;
+            font-weight: bold;
+        }
+    }
+}

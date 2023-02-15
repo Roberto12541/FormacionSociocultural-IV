@@ -15,24 +15,57 @@
 
 <body>
 
-    <header>
-        <div class="container__header">
-            <a href="./index.html">Aprendiendo a Aprender</a>
-            <div class="menu bg-blanco">
-                <nav>
-                    <ul>
-                        <li><a href="./index.html" class="item-nav-activo">Inicio</a></li>
-                        <li><a href="./pages/unidadI.html" class="item-nav">Unidad I</a></li>
-                        <li><a href="./pages/unidadII.html" class="item-nav">Unidad II</a></li>
-                        <!-- <li><a href="./pages/unidadIII.html" class="item-nav">Unidad III</a></li> -->
-                        <!-- <li><a href="./pages/proximamente.html" class="item-nav">Unidad II</a></li> -->
-                        <li><a href="./pages/proximamente.html" class="item-nav">Unidad III</a></li>
-                    </ul>
-                </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container h-100">
+            <a class="navbar-brand" href="index.html">Aprendiendo a Aprender</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Unidad I.
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/inteligencias_multiples.html">La Inteligencia</a></li>
+                            <li><a class="dropdown-item" href="./pages/pensamientos.html">Pensamiento Vertical y Lateral</a></li>
+                            <li><a class="dropdown-item" href="./pages/pensamiento_creativo.html">Proceso de Pensamiento Creativo</a></li>
+                            <li><a class="dropdown-item" href="./pages/examenI.html">Prueba</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/unidadII.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Unidad II
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/desarrolloIdeas.html">Generacion de Ideas</a></li>
+                            <li><a class="dropdown-item" href="./pages/depuracion.html">Depuracion de Ideas</a></li>
+                            <li><a class="dropdown-item" href="./pages/examenII.html">Prueba</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/proximamente.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Unidad III
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/proximamente.html">Etica Y Valores</a></li>
+                            <li><a class="dropdown-item" href="./pages/proximamente.html">Comunión y Comunicación</a></li>
+                            <li><a class="dropdown-item" href="./pages/proximamente.html">Administracion por Valores</a></li>
+                            <li><a class="dropdown-item" href="./pages/proximamente.html">Prueba</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <i class="fa-solid fa-bars" id="icon_menu"></i>
         </div>
-    </header>
+    </nav>
 
     <section class="contenedor__home">
         <div class="home">
@@ -89,7 +122,7 @@
                         <h5 class="card-title">Primera Unidad</h5>
                         <p class="card-text">Realiza este formulario y pon a prueba tus conocimientos sobre las
                             inteligencias multiples y sombreros del pensamiento.</p>
-                        <a href="pages/unidadI.html#prueba" class="btn btn-primary">Empezar</a>
+                        <a href="pages/examenI.html" class="btn btn-primary">Empezar</a>
                     </div>
                 </div>
                 <div class="card">
@@ -98,7 +131,7 @@
                         <h5 class="card-title">Segunda Unidad</h5>
                         <p class="card-text">Realiza este formulario y pon a prueba tus conocimientos sobre las
                             inteligencias multiples y sombreros del pensamiento.</p>
-                        <a href="pages/unidadII.html#prueba" class="btn btn-primary">Empezar</a>
+                        <a href="pages/proximamente.html" class="btn btn-primary">Empezar</a>
                     </div>
                 </div>
                 <div class="card">

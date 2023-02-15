@@ -1,36 +1,3 @@
-// .contenedor__tema{
-//     width: 100%;
-//     height: 80vh;
-//     & .tema{
-//         margin: auto;
-//         height: 100%;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: center;
-//         gap: 30px;
-//         padding: 0px 20px;
-//         .texto{
-//             & a{
-//                 border: none;
-//                 padding: 5px 15px;
-//                 background-color: #525fe1;
-//                 color: white;
-//                 border-radius: 5px;
-//                 &:hover{
-//                     background-color: #f9fbfc;
-//                     border: solid 1px #525fe1;
-//                     color: #525fe1;
-//                 }
-//             }
-//         }
-//     }
-//     & img{
-//         max-height: 350px;
-//         width: 100%;
-//     }
-// }
-
 .contenedor__info{
     height: auto;
     padding: 40px 0px;
@@ -41,27 +8,6 @@
             justify-content: center;
         }
     }
-}
-
-.prueba{
-    width: 100%;
-    .contenedor__pruebas{
-        padding: 20px;
-        max-width: 640px;
-        width: 100%;
-        margin: auto;
-        .forms{
-            width: 100%;
-            height: 480px;
-            border-radius: 10px;
-        }
-    }
-}
-
-#circulo{
-    position: absolute;
-    width: 100%;
-    z-index: -1;
 }
 
 @media(min-width:576px){
@@ -105,6 +51,23 @@
 
 .u{
     padding: 0px 20px;
+    .examen{
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        iframe{
+            height: 450px;
+        }
+        @media(min-width:576px){
+            iframe{
+                height: 650px;
+                width: 80%;
+            }
+        }
+    }
     @media(min-width:992px){
         padding: 0px;
         display: grid;
@@ -116,6 +79,11 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+            a{
+                &:hover{
+                    color: #525fe1;
+                }
+            }
             .tm{
                 .tu{
                     margin-bottom: 10px;
@@ -163,7 +131,7 @@
                 }
                 a{
                     border: none;
-                    padding: 5px 15px;
+                    padding: 8px 15px;
                     background-color: #525fe1;
                     color: white;
                     border-radius: 5px;
@@ -221,6 +189,21 @@
             }
         }
     }
+    .info{
+        height: 100%;
+        margin-bottom: 20px;
+        @media(min-width:992px){
+            padding: 40px;
+        }
+        .imagen{
+            text-align: center;
+        }
+    }
+}
+
+.tema-seleccionado{
+    color: #525fe1;
+    font-weight: bold;
 }
 
 

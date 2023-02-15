@@ -129,6 +129,27 @@ header .container__header #icon_menu {
     padding: 0;
   }
 }
+.navbar {
+  height: 65px;
+}
+.navbar .container .navbar-brand {
+  color: #525fe1;
+  font-family: MuseoSansRounded;
+  font-weight: 1000;
+}
+.navbar .container .navbar-toggler-icon {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
+.navbar .container #navbarNavDropdown {
+  background-color: #f9fbfc;
+}
+.navbar .container .navbar-toggler {
+  border: none;
+  font-weight: bold;
+}
+
 footer {
   width: 100%;
   padding: 20px 0px;
@@ -245,7 +266,7 @@ footer {
 
 .contenedor__home {
   width: 100%;
-  height: 90vh;
+  height: 70vh;
 }
 .contenedor__home .home {
   height: 100%;
@@ -346,7 +367,7 @@ footer {
 
 @media (min-width: 576px) {
   .contenedor__home {
-    height: 50vh;
+    height: 40vh;
   }
   .contenedor__home .home {
     flex-direction: row;
@@ -354,7 +375,7 @@ footer {
 }
 @media (min-width: 768px) {
   .contenedor__home {
-    height: 60vh;
+    height: 50vh;
   }
   .contenedor__programa .programa {
     flex-direction: row;
@@ -369,7 +390,7 @@ footer {
 }
 @media (min-width: 992px) {
   .contenedor__home {
-    height: 70vh;
+    height: 50vh;
   }
   .contenedor__home .home {
     padding: 50px;
@@ -380,7 +401,7 @@ footer {
 }
 @media (min-width: 1200px) {
   .contenedor__home {
-    height: 80vh;
+    height: 60vh;
   }
   .contenedor__home .home {
     max-width: 1080px;
@@ -399,27 +420,6 @@ footer {
 .contenedor__info .info .temario_secciones {
   display: flex;
   justify-content: center;
-}
-
-.prueba {
-  width: 100%;
-}
-.prueba .contenedor__pruebas {
-  padding: 20px;
-  max-width: 640px;
-  width: 100%;
-  margin: auto;
-}
-.prueba .contenedor__pruebas .forms {
-  width: 100%;
-  height: 480px;
-  border-radius: 10px;
-}
-
-#circulo {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
 }
 
 @media (min-width: 576px) {
@@ -459,6 +459,23 @@ footer {
 .u {
   padding: 0px 20px;
 }
+.u .examen {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.u .examen iframe {
+  height: 450px;
+}
+@media (min-width: 576px) {
+  .u .examen iframe {
+    height: 650px;
+    width: 80%;
+  }
+}
 @media (min-width: 992px) {
   .u {
     padding: 0px;
@@ -472,6 +489,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .u .t a:hover {
+    color: #525fe1;
   }
   .u .t .tm .tu {
     margin-bottom: 10px;
@@ -525,7 +545,7 @@ footer {
 }
 .u .c .unidadC .texto a {
   border: none;
-  padding: 5px 15px;
+  padding: 8px 15px;
   background-color: #525fe1;
   color: white;
   border-radius: 5px;
@@ -584,6 +604,23 @@ footer {
   .u .c .material .materiales {
     padding: 40px 0px;
   }
+}
+.u .info {
+  height: 100%;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .u .info {
+    padding: 40px;
+  }
+}
+.u .info .imagen {
+  text-align: center;
+}
+
+.tema-seleccionado {
+  color: #525fe1;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
