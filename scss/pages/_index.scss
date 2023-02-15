@@ -90,6 +90,20 @@
     }
 }
 
+.descargar_programa{
+    padding: 40px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    a{
+        color: white;
+        text-decoration: underline;
+        &:hover{
+            
+        }
+    }
+}
+
 @media (min-width:576px){
     .contenedor__home{
         height: 50vh;

@@ -194,6 +194,53 @@ footer {
   background-color: white;
 }
 
+.proximamente {
+  background-image: url("../img/proximamente-back.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 80px 0px;
+}
+.proximamente .contenedor {
+  max-width: 1200px;
+  margin: auto;
+  height: 85%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.proximamente .contenedor .imagen img {
+  width: 90%;
+}
+.proximamente .contenedor .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.proximamente .contenedor .texto h1 {
+  font-weight: 1000;
+}
+.proximamente .contenedor .texto a {
+  border: 1px solid #525fe1;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #525fe1;
+}
+.proximamente .contenedor .texto a:hover {
+  background-color: transparent;
+  color: #525fe1;
+}
+
 .contenedor__home {
   width: 100%;
   height: 90vh;
@@ -284,6 +331,17 @@ footer {
   margin: 20px 0px;
 }
 
+.descargar_programa {
+  padding: 40px 0px 0px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.descargar_programa a {
+  color: white;
+  text-decoration: underline;
+}
+
 @media (min-width: 576px) {
   .contenedor__home {
     height: 50vh;
@@ -337,11 +395,12 @@ footer {
 }
 .contenedor__tema .tema {
   margin: auto;
-  height: auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   padding: 60px 20px;
 }
 .contenedor__tema .tema .texto a {
@@ -412,7 +471,7 @@ footer {
 
 @media (min-width: 576px) {
   .contenedor__tema {
-    height: auto;
+    height: 50vh;
   }
   .contenedor__tema .tema {
     flex-direction: row;
@@ -437,6 +496,11 @@ footer {
   }
   .separacion__info .lateral {
     width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .contenedor__tema {
+    height: 70vh;
   }
 }
 
