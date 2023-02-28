@@ -39,7 +39,7 @@ a {
 }
 
 body {
-  background-color: #f9fbfc;
+  background-color: white;
 }
 
 header {
@@ -266,15 +266,20 @@ footer {
 
 .contenedor__home {
   width: 100%;
-  height: 70vh;
+  padding: 0px 20px;
+  margin: 70px 0px 0px 0px;
 }
 .contenedor__home .home {
   height: 100%;
+  padding: 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 20px;
+  gap: 10px;
+}
+.contenedor__home .home .texto h1 {
+  font-weight: bold;
 }
 .contenedor__home .home .texto a {
   border: none;
