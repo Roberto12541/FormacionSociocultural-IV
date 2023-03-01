@@ -616,7 +616,7 @@ footer {
 }
 @media (min-width: 992px) {
   .u .info {
-    padding: 40px;
+    padding: 40px 80px;
   }
 }
 .u .info .imagen {
