@@ -15,54 +15,43 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container h-100">
-            <a class="navbar-brand" href="index.html">Aprendiendo a Aprender</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Aprendiendo a Aprender</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav gap-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad I.
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/inteligencias_multiples.html">La Inteligencia</a></li>
-                            <li><a class="dropdown-item" href="./pages/pensamientos.html">Pensamiento Vertical y Lateral</a></li>
-                            <li><a class="dropdown-item" href="./pages/pensamiento_creativo.html">Proceso de Pensamiento Creativo</a></li>
-                            <li><a class="dropdown-item" href="./pages/examenI.html">Prueba</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./pages/unidadII.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad II
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/desarrolloIdeas.html">Generacion de Ideas</a></li>
-                            <li><a class="dropdown-item" href="./pages/depuracion.html">Depuracion de Ideas</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Prueba</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./pages/proximamente.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad III
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Etica Y Valores</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Comunión y Comunicación</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Administracion por Valores</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Prueba</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Aprendiendo a Aprender</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -108,39 +97,63 @@
             </div>
         </div>
         <div class="descargar_programa">
-            <span>Descarga el programa </span><a href="http://www.utn.edu.mx/planes_programas/view/materias/sm/C4_asignaturas/4.8%20Formacion%20sociocultural%20IV.pdf" target="_blank">aqui</a>
+            <span>Descarga el programa </span><a
+                href="http://www.utn.edu.mx/planes_programas/view/materias/sm/C4_asignaturas/4.8%20Formacion%20sociocultural%20IV.pdf"
+                target="_blank">aqui</a>
         </div>
     </section>
 
-    <section class="formularios">
-        <div class="contenedor__formularios">
-            <h2>Prueba tus conocimientos</h2>
-            <div class="contenedor__cards d-flex flex-column justify-content-center gap-2 flex-md-row">
-                <div class="card">
-                    <img src="img/sombreros.png" class="card-img-top d-none d-lg-block" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Primera Unidad</h5>
-                        <p class="card-text">Realiza este formulario y pon a prueba tus conocimientos sobre las
-                            inteligencias multiples y sombreros del pensamiento.</p>
-                        <a href="pages/examenI.html" class="btn btn-primary">Empezar</a>
+    <section class="unidad">
+        <!-- <div class="titulo">
+            <h3>Formacion Sociocultural IV</h3>
+        </div> -->
+        <div class="contenedor_unidad">
+            <div class="temas">
+                <div class="tema">
+                    <div class="encabezado">
+                        <div class="img">
+                            <img src="../img/creatividad.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="titulo-tema">
+                            <h6><a href="./pages/unidadI.html">I. Proceso de Pensamiento Creativo</a></h6>
+                        </div>
+                    </div>
+                    <div class="temario">
+                        <a href="">La Inteligencia</a>
+                        <a href="">Pensamiento Vertical y Lateral</a>
+                        <a href="">Proceso de Pensamiento Creativo</a>
+                        <a href="">Prueba</a>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="img/creatividad.jpg" class="card-img-top d-none d-lg-block" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Segunda Unidad</h5>
-                        <p class="card-text">Realiza este formulario y pon a prueba tus conocimientos sobre las
-                            inteligencias multiples y sombreros del pensamiento.</p>
-                        <a href="pages/proximamente.html" class="btn btn-primary">Empezar</a>
+                <div class="tema">
+                    <div class="encabezado">
+                        <div class="img">
+                            <img src="../img/creatividad.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="titulo-tema">
+                            <h6>II. Desarrollo de Ideas</h6>
+                        </div>
+                    </div>
+                    <div class="temario">
+                        <a href="">Generación de Ideas</a>
+                        <a href="">Depuración de Ideas</a>
+                        <a href="">Prueba</a>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="img/comunicacion.png" class="card-img-top d-none d-lg-block" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Tercera Unidad</h5>
-                        <p class="card-text">Realiza este formulario y pon a prueba tus conocimientos sobre las
-                            inteligencias multiples y sombreros del pensamiento.</p>
-                        <a href="pages/proximamente.html" class="btn btn-primary">Empezar</a>
+                <div class="tema">
+                    <div class="encabezado">
+                        <div class="img">
+                            <img src="../img/creatividad.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="titulo-tema">
+                            <h6>III. Administración por Valores</h6>
+                        </div>
+                    </div>
+                    <div class="temario">
+                        <a href="">Ética y Valores</a>
+                        <a href="">Comunión y Comunicación</a>
+                        <a href="">Administración por Valores</a>
+                        <a href="">Prueba</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +168,8 @@
                     <a href="">Formacion Sociocultural</a>
                 </div>
                 <div class="terms">
-                    <p>Actuar con valores y actitudes proactivas, creativas y emprendedoras, en su desarrollo personal, social, yo anizacional en armonía con su medio ambiente.</p>
+                    <p>Actuar con valores y actitudes proactivas, creativas y emprendedoras, en su desarrollo personal,
+                        social, yo anizacional en armonía con su medio ambiente.</p>
                 </div>
             </div>
             <div class="box__footer">
@@ -174,9 +188,12 @@
 
             <div class="box__footer">
                 <h3>Redes Sociales</h3>
-                <a href="https://www.facebook.com/profile.php?id=100010329643690" target="_blank"> <i class="fab fa-facebook-square"></i> Facebook</a>
-                <a href="https://api.whatsapp.com/send/?phone=525564100068&text&app_absent=0"><i class="fab fa-twitter-square"></i> WhatsApp</a>
-                <a href="https://www.instagram.com/robertomiranda87/"><i class="fab fa-instagram-square"></i> Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100010329643690" target="_blank"> <i
+                        class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://api.whatsapp.com/send/?phone=525564100068&text&app_absent=0"><i
+                        class="fab fa-twitter-square"></i> WhatsApp</a>
+                <a href="https://www.instagram.com/robertomiranda87/"><i class="fab fa-instagram-square"></i>
+                    Instagram</a>
             </div>
 
         </div>
