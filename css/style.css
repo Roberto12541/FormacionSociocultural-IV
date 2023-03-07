@@ -42,100 +42,17 @@ body {
   background-color: white;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  background-color: #f9fbfc;
-}
-header .container__header {
-  max-width: 1200px;
-  height: 100%;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .container__header i {
-  color: #525fe1;
-}
-header .container__header a {
-  color: #525fe1;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration: none;
-}
-header .container__header .menu {
-  background-color: #f9fbfc;
-  height: 0px;
-  position: absolute;
-  right: 5px;
-  top: 65px;
-  overflow: hidden;
-  z-index: 10;
-  box-shadow: 0px 0px 30px -20px rgba(0, 0, 0, 0.5);
-  transition: all 300ms;
-}
-header .container__header .menu nav ul {
-  display: flex;
-  padding: 20px 0px;
-  flex-direction: column;
-}
-header .container__header .menu nav ul li {
-  list-style: none;
-  padding: 10px 40px;
-}
-header .container__header .menu nav ul li .item-nav, header .container__header .menu nav ul li .item-nav-activo {
-  font-size: 16px;
-  text-decoration: none;
-  transition: opacity 300ms;
-  color: gray;
-}
-header .container__header .menu nav ul li .item-nav-activo {
-  color: #525fe1;
-}
-header .container__header .mostrar_menu {
-  height: 235px;
-}
-header .container__header #icon_menu {
-  display: block;
-  cursor: pointer;
-  font-size: 24px;
-}
-
-@media (min-width: 992px) {
-  header .container__header {
-    padding: 0px 50px;
-  }
-  header .container__header #icon_menu {
-    display: none;
-  }
-  header .container__header .menu {
-    position: relative;
-    overflow: visible;
-    top: 10px;
-    right: 0;
-    height: auto;
-    background-color: rgba(249, 251, 252, 0);
-  }
-  header .container__header .menu nav ul {
-    flex-direction: row;
-    padding: 0;
-    gap: 20px;
-  }
-  header .container__header .menu nav ul li {
-    padding: 0;
-  }
-}
 .navbar {
   height: 65px;
+  margin: 0;
+}
+.navbar .container {
+  max-width: 1200px;
+  margin: auto;
 }
 .navbar .container .navbar-brand {
   color: #525fe1;
-  font-family: MuseoSansRounded;
-  font-weight: 1000;
+  font-weight: bold;
 }
 .navbar .container .navbar-toggler-icon {
   width: 25px;
@@ -148,6 +65,28 @@ header .container__header #icon_menu {
 .navbar .container .navbar-toggler {
   border: none;
   font-weight: bold;
+}
+.navbar .container .offcanvas a:hover {
+  color: #525fe1;
+}
+.navbar .container .offcanvas .offcanvas-header .offcanvas-title {
+  color: #525fe1;
+  font-weight: bold;
+}
+.navbar .container .offcanvas .offcanvas-body {
+  padding: 0px 20px;
+}
+.navbar .container .offcanvas .offcanvas-body ul .active {
+  color: #525fe1;
+  font-weight: bold;
+}
+.navbar .container .offcanvas .offcanvas-body ul .dropdown .dropdown-menu {
+  --bs-dropdown-link-active-bg: none;
+  border: none;
+  margin: 0;
+}
+.navbar .container .offcanvas .offcanvas-body ul .dropdown .dropdown-menu .dropdown-item {
+  padding: 0 25px;
 }
 
 footer {
@@ -570,6 +509,160 @@ footer {
   font-size: 14px;
 }
 .unidad .contenedor_contenidos .lateral .juego a .temaJuego {
+  font-weight: bold;
+}
+
+.info {
+  width: 100%;
+}
+.info .titulo {
+  position: sticky;
+  top: 65px;
+  width: 100%;
+  height: auto;
+  padding: 15px 10px 15px 20px;
+  background-color: #525fe1;
+  color: white;
+}
+.info .titulo h3, .info .titulo h5, .info .titulo h6 {
+  margin: 0;
+}
+.info .titulo h6 {
+  color: #d2d2d2;
+}
+.info .titulo h5 {
+  font-weight: bold;
+}
+.info .titulo .contenedor_titulo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: auto;
+  text-align: left;
+}
+.info .contenedor_info {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .info .contenedor_info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+.info .contenedor_info .contenidos {
+  max-width: 800px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  padding: 20px 0px;
+}
+.info .contenedor_info .contenidos h1, .info .contenedor_info .contenidos h2, .info .contenedor_info .contenidos h3, .info .contenedor_info .contenidos h4, .info .contenedor_info .contenidos h5, .info .contenedor_info .contenidos h6 {
+  margin: 0;
+  font-weight: bold;
+}
+.info .contenedor_info .contenidos .video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+.info .contenedor_info .contenidos .video iframe {
+  width: 100%;
+  height: 200px;
+}
+@media (min-width: 426px) {
+  .info .contenedor_info .contenidos .video iframe {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .info .contenedor_info .contenidos .video iframe {
+    height: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .info .contenedor_info .contenidos .video iframe {
+    height: 450px;
+  }
+}
+.info .contenedor_info .contenidos .resumen {
+  margin: 20px 0px;
+  padding: 0px 20px;
+  text-align: justify;
+}
+.info .contenedor_info .contenidos .resumen h5 {
+  margin-bottom: 5px;
+}
+.info .contenedor_info .contenidos .derechos {
+  padding: 0px 20px;
+}
+.info .contenedor_info .contenidos .derechos .titulo_video {
+  font-style: italic;
+  font-size: 14px;
+  color: gray;
+}
+.info .contenedor_info .contenidos .controles {
+  width: 100%;
+  height: 65px;
+  padding: 10px;
+  position: sticky;
+  bottom: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .contenedor_info .contenidos .controles .control {
+  width: 100%;
+  height: 100%;
+  background-color: #525fe1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .contenedor_info .contenidos .controles .control a {
+  color: white;
+  font-weight: bold;
+}
+.info .contenedor_info .contenidos .controles .control:hover {
+  background-color: transparent;
+  border: 1px solid #525fe1;
+}
+.info .contenedor_info .contenidos .controles .control:hover a {
+  color: #525fe1;
+}
+.info .contenedor_info .lateral {
+  width: 270px;
+  padding: 10px 0px;
+}
+.info .contenedor_info .lateral h4 {
+  font-weight: bold;
+}
+.info .contenedor_info .lateral .juego {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.info .contenedor_info .lateral .juego a {
+  padding: 10px;
+  border: #d2d2d2 1px solid;
+  border-radius: 5px;
+}
+.info .contenedor_info .lateral .juego a .tipo {
+  color: gray;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+.info .contenedor_info .lateral .juego a .temaJuego {
   font-weight: bold;
 }
 

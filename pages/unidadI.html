@@ -16,54 +16,70 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container h-100">
-            <a class="navbar-brand" href="index.html">Aprendiendo a Aprender</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container">
+            <a href="http://www.utn.edu.mx/" target="_blank" class="d-none d-md-block">
+                <img src="../img/logo_utn.png" alt="" class="" height="45px">
+            </a>
+            <a class="navbar-brand" href="../index.html">Aprendiendo a Aprender</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav gap-2">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad I.
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/inteligencias_multiples.html">La Inteligencia</a></li>
-                            <li><a class="dropdown-item" href="./pages/pensamientos.html">Pensamiento Vertical y Lateral</a></li>
-                            <li><a class="dropdown-item" href="./pages/pensamiento_creativo.html">Proceso de Pensamiento Creativo</a></li>
-                            <li><a class="dropdown-item" href="./pages/examenI.html">Prueba</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./pages/unidadII.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad II
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/desarrolloIdeas.html">Generacion de Ideas</a></li>
-                            <li><a class="dropdown-item" href="./pages/depuracion.html">Depuracion de Ideas</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Prueba</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./pages/proximamente.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Unidad III
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Etica Y Valores</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Comunión y Comunicación</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Administracion por Valores</a></li>
-                            <li><a class="dropdown-item" href="./pages/proximamente.html">Prueba</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Aprendiendo a Aprender</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="unidadI.html" role="button">
+                                Unidad I
+                            </a>
+                            <ul class="dropdown-menu show">
+                                <li><a class="dropdown-item" href="#">- La Inteligencia</a></li>
+                                <li><a class="dropdown-item" href="#">- Pensamiento Vertical y Lateral</a></li>
+                                <li><a class="dropdown-item" href="#">- Proceso de Pensamiento Creativo</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">- Evaluación</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="unidadII.html" role="button">
+                                Unidad II
+                            </a>
+                            <ul class="dropdown-menu show">
+                                <li><a class="dropdown-item" href="#">- Generación de Ideas</a></li>
+                                <li><a class="dropdown-item" href="#">- Depuración de Ideas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">- Evaluación</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="unidadIII.html" role="button">
+                                Unidad III
+                            </a>
+                            <ul class="dropdown-menu show">
+                                <li><a class="dropdown-item" href="#">- Ética y Valores</a></li>
+                                <li><a class="dropdown-item" href="#">- Comunión y Comunicación</a></li>
+                                <li><a class="dropdown-item" href="#">- Administración por Valores</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">- Evaluación</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -84,7 +100,7 @@
                 <div class="contenido">
                     <div class="tema">
                         <h5>La Inteligencia</h5>
-                        <a href=""><i class="bi bi-play-btn"></i> ¿Qué es la inteligencia?</a>
+                        <a href="./unidadI/inteligencia.html"><i class="bi bi-play-btn"></i> ¿Qué es la inteligencia?</a>
                         <a href=""><i class="bi bi-play-btn"></i> Inteligencias Multiples</a>
                         <a href=""><i class="bi bi-play-btn"></i> Sombreros del Pensamiento</a>
                         <a href=""><i class="bi bi-journal-check"></i> Evaluación</a>
@@ -99,6 +115,10 @@
                         <h5>Proceso de Pensamiento Creativo</h5>
                         <a href=""><i class="bi bi-play-btn"></i> Proceso de Pensamiento Creativo</a>
                         <a href=""><i class="bi bi-journal-check"></i> Evaluación</a>
+                    </div>
+                    <div class="tema">
+                        <h5>Evaluación Unidad I</h5>
+                        <a href=""><i class="bi bi-journal-check"></i> Evaluación Unidad I</a>
                     </div>
                 </div>
             </div>
