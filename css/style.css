@@ -523,6 +523,7 @@ footer {
   padding: 15px 10px 15px 20px;
   background-color: #525fe1;
   color: white;
+  z-index: 10;
 }
 .info .titulo h3, .info .titulo h5, .info .titulo h6 {
   margin: 0;
@@ -556,6 +557,9 @@ footer {
     gap: 20px;
     padding: 20px;
   }
+}
+.info .contenedor_info .evaluaciones {
+  width: 100%;
 }
 .info .contenedor_info .contenidos {
   max-width: 800px;
@@ -641,28 +645,63 @@ footer {
   color: #525fe1;
 }
 .info .contenedor_info .lateral {
-  width: 270px;
+  width: 320px;
+  height: 80vh;
+  overflow-y: scroll;
   padding: 10px 0px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  position: sticky;
+  top: 140px;
 }
-.info .contenedor_info .lateral h4 {
+.info .contenedor_info .lateral .materia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.info .contenedor_info .lateral .materia h5 {
   font-weight: bold;
 }
-.info .contenedor_info .lateral .juego {
+.info .contenedor_info .lateral .bloque {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #d2d2d2;
 }
-.info .contenedor_info .lateral .juego a {
-  padding: 10px;
-  border: #d2d2d2 1px solid;
-  border-radius: 5px;
+.info .contenedor_info .lateral .bloque .unidad-numero {
+  color: #525fe1;
+  font-weight: bold;
 }
-.info .contenedor_info .lateral .juego a .tipo {
-  color: gray;
-  margin-bottom: 2px;
+.info .contenedor_info .lateral .bloque .unidad-tema {
+  font-weight: bold;
+}
+.info .contenedor_info .lateral .lateral-tema, .info .contenedor_info .lateral .lateral-actividad {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.info .contenedor_info .lateral .lateral-tema i, .info .contenedor_info .lateral .lateral-actividad i {
+  font-weight: bold;
+  font-size: 20px;
+}
+.info .contenedor_info .lateral .lateral-actividad {
+  background-color: #525fe1;
+  color: white;
+}
+.info .contenedor_info .lateral .lateral-actividad .juego {
+  display: flex;
+  flex-direction: column;
+}
+.info .contenedor_info .lateral .lateral-actividad .juego .tipo {
   font-size: 14px;
+  color: #d2d2d2;
 }
-.info .contenedor_info .lateral .juego a .temaJuego {
+.info .contenedor_info .lateral .lateral-actividad .juego .juego-tema {
   font-weight: bold;
 }
 
