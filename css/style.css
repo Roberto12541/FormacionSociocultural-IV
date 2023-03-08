@@ -30,7 +30,7 @@
   list-style: none;
   font-family: MuseoSansRounded;
   scroll-behavior: smooth;
-  scroll-margin-top: 10ex;
+  scroll-margin-top: 20ex;
 }
 
 a {
@@ -47,7 +47,7 @@ body {
   margin: 0;
 }
 .navbar .container {
-  max-width: 1200px;
+  max-width: 980px;
   margin: auto;
 }
 .navbar .container .navbar-brand {
@@ -455,9 +455,10 @@ footer {
   }
 }
 .unidad .contenedor_contenidos .contenidos {
+  max-width: 768px;
   border: 1px solid #d2d2d2;
   border-radius: 5px;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 .unidad .contenedor_contenidos .contenidos h1, .unidad .contenedor_contenidos .contenidos h2, .unidad .contenedor_contenidos .contenidos h3, .unidad .contenedor_contenidos .contenidos h4, .unidad .contenedor_contenidos .contenidos h5, .unidad .contenedor_contenidos .contenidos h6 {
   margin: 0;
@@ -485,6 +486,37 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.unidad .contenedor_contenidos .contenidos .controles {
+  width: 100%;
+  height: 65px;
+  padding: 10px;
+  position: sticky;
+  bottom: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unidad .contenedor_contenidos .contenidos .controles .control {
+  width: 100%;
+  height: 100%;
+  background-color: #525fe1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unidad .contenedor_contenidos .contenidos .controles .control a {
+  color: white;
+  font-weight: bold;
+}
+.unidad .contenedor_contenidos .contenidos .controles .control:hover {
+  background-color: transparent;
+  border: 1px solid #525fe1;
+}
+.unidad .contenedor_contenidos .contenidos .controles .control:hover a {
+  color: #525fe1;
 }
 .unidad .contenedor_contenidos .lateral {
   width: 270px;
