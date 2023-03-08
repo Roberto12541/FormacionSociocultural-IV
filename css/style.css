@@ -560,6 +560,38 @@ footer {
 }
 .info .contenedor_info .evaluaciones {
   width: 100%;
+  max-width: 800px;
+}
+.info .contenedor_info .evaluaciones .controles {
+  width: 100%;
+  height: 65px;
+  padding: 10px;
+  position: sticky;
+  bottom: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .contenedor_info .evaluaciones .controles .control {
+  width: 100%;
+  height: 100%;
+  background-color: #525fe1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .contenedor_info .evaluaciones .controles .control a {
+  color: white;
+  font-weight: bold;
+}
+.info .contenedor_info .evaluaciones .controles .control:hover {
+  background-color: transparent;
+  border: 1px solid #525fe1;
+}
+.info .contenedor_info .evaluaciones .controles .control:hover a {
+  color: #525fe1;
 }
 .info .contenedor_info .contenidos {
   max-width: 800px;
@@ -658,7 +690,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0px;
+  padding: 10px;
   border-bottom: 1px solid #d2d2d2;
 }
 .info .contenedor_info .lateral .materia h5 {
