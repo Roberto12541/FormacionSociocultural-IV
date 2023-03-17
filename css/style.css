@@ -156,6 +156,12 @@ footer {
   background-color: white;
 }
 
+.logoUTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .proximamente {
   background-image: url("../img/proximamente-back.svg");
   background-position: center center;
