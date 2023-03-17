@@ -9,7 +9,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
         .texto{
             h1{
                 font-weight: bold;
@@ -26,7 +26,10 @@
                     color: #525fe1;
                 }
             }
-        } 
+        }
+        .imagen{
+            width: 50%;
+        }
     }
     & img{
         width: 100%;
@@ -119,6 +122,11 @@
 @media (min-width:768px){
     .contenedor__home{
         height: 50vh;
+        .home{
+            .imagen{
+                width: 40%;
+            }
+        }
     }
     .contenedor__programa{
         .programa{
@@ -138,6 +146,9 @@
         height: 50vh;
         .home{
             padding: 50px;
+            .imagen{
+                width: 30%;
+            }
         }
     }
     .contenedor__programa{
