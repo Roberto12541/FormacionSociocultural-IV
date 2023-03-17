@@ -76,34 +76,21 @@
     .contenedor_tareas{
         max-width: 992px;
         margin: auto;
-        display: grid;
-        grid-template-rows: repeat(4, auto);
+        display: flex;
+        flex-direction: column;
         gap: 10px;
-        h3, h4{
+        h3, h5{
             font-weight: bold;
         }
         .objetivos{
-            img{     
-                width: 80%;
-                @media (min-width:768px){
-                    width: 35%;
-                }
-                @media (min-width:992px){
-                    width: 80%;
-                }
-                @media (min-width:1200px){
-                    width: 45%;
-                }
+            display: grid;
+            gap: 0px 40px;
+            @media (min-width: 768px) {
+                grid-template-columns: repeat(3, 1fr);
             }
-        }
-        @media (min-width:576px){
-            gap: 10px 0px;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 250px);
-        }
-        @media (min-width:992px){
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: none;
+            & > div{
+                text-align: justify;
+            }
         }
     }
 }

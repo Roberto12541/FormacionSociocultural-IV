@@ -280,43 +280,24 @@ footer {
 .tareas .contenedor_tareas {
   max-width: 992px;
   margin: auto;
-  display: grid;
-  grid-template-rows: repeat(4, auto);
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
-.tareas .contenedor_tareas h3, .tareas .contenedor_tareas h4 {
+.tareas .contenedor_tareas h3, .tareas .contenedor_tareas h5 {
   font-weight: bold;
 }
-.tareas .contenedor_tareas .objetivos img {
-  width: 80%;
+.tareas .contenedor_tareas .objetivos {
+  display: grid;
+  gap: 0px 40px;
 }
 @media (min-width: 768px) {
-  .tareas .contenedor_tareas .objetivos img {
-    width: 35%;
+  .tareas .contenedor_tareas .objetivos {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (min-width: 992px) {
-  .tareas .contenedor_tareas .objetivos img {
-    width: 80%;
-  }
-}
-@media (min-width: 1200px) {
-  .tareas .contenedor_tareas .objetivos img {
-    width: 45%;
-  }
-}
-@media (min-width: 576px) {
-  .tareas .contenedor_tareas {
-    gap: 10px 0px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 250px);
-  }
-}
-@media (min-width: 992px) {
-  .tareas .contenedor_tareas {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: none;
-  }
+.tareas .contenedor_tareas .objetivos > div {
+  text-align: justify;
 }
 
 .galeriaIndex {
