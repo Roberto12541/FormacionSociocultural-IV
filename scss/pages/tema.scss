@@ -6,7 +6,7 @@
         width: 100%;
         height: auto;
         padding: 15px 10px 15px 20px;
-        background-color: #525fe1;
+        background-color: $colorPage;
         color: white;
         z-index: 10;
         h3, h5, h6{
@@ -58,7 +58,7 @@
                 .control{
                     width: 100%;
                     height: 100%;
-                    background-color: #525fe1;
+                    background-color: $colorPage;
                     border-radius: 5px;
                     display: flex;
                     justify-content: center;
@@ -69,9 +69,9 @@
                     }
                     &:hover{
                         background-color: transparent;
-                        border: 1px solid #525fe1;
+                        border: 1px solid $colorPage;
                         a{
-                            color: #525fe1;
+                            color: $colorPage;
                         }
                     }
                 }
@@ -135,7 +135,7 @@
                 .control{
                     width: 100%;
                     height: 100%;
-                    background-color: #525fe1;
+                    background-color: $colorPage;
                     border-radius: 5px;
                     display: flex;
                     justify-content: center;
@@ -146,9 +146,9 @@
                     }
                     &:hover{
                         background-color: transparent;
-                        border: 1px solid #525fe1;
+                        border: 1px solid $colorPage;
                         a{
-                            color: #525fe1;
+                            color: $colorPage;
                         }
                     }
                 }
@@ -180,7 +180,7 @@
                 padding: 10px 0px;
                 border-bottom: 1px solid #d2d2d2;
                 .unidad-numero{
-                    color: #525fe1;
+                    color: $colorPage;
                     font-weight: bold;
                 }
                 .unidad-tema{
@@ -199,7 +199,7 @@
                 }
             }
             .lateral-actividad{
-                background-color: #525fe1;
+                background-color: $colorPage;
                 color: white;
                 .juego{
                     display: flex;

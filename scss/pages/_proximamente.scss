@@ -32,15 +32,15 @@
                 font-weight: 1000;
             }
             a{
-                border: 1px solid #525fe1;
+                border: 1px solid $colorPage;
                 border-radius: 5px;
                 color: white;
                 font-size: 18px;
                 padding: 10px 15px;
-                background-color: #525fe1;
+                background-color: $colorPage;
                 &:hover{
                     background-color: transparent;
-                    color: #525fe1;
+                    color: $colorPage;
                 }
             }
         }

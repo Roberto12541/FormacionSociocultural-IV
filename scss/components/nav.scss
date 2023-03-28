@@ -5,7 +5,7 @@
         max-width: 980px;
         margin: auto;
         .navbar-brand{
-            color: #525fe1;
+            color: $colorPage;
             font-weight: bold;
         }
         .navbar-toggler-icon{
@@ -22,11 +22,11 @@
         }
         .offcanvas{
             a:hover{
-                color: #525fe1;
+                color: $colorPage;
             }
             .offcanvas-header{
                 .offcanvas-title{
-                    color: #525fe1;
+                    color: $colorPage;
                     font-weight: bold;
                 }
             }
@@ -34,7 +34,7 @@
                 padding: 0px 20px;
                 ul{
                     .active{
-                        color: #525fe1;
+                        color: $colorPage;
                         font-weight: bold;
                     }
                     .dropdown{
@@ -68,10 +68,10 @@
 //         justify-content: space-between;
 //         align-items: center;
 //         i{
-//             color: #525fe1;
+//             color: $colorPage;
 //         }
 //         & a{
-//             color: #525fe1;
+//             color: $colorPage;
 //             font-weight: bold;
 //             font-size: 20px;
 //             text-decoration: none;
@@ -99,7 +99,7 @@
 //                         transition: opacity 300ms;
 //                         color: gray;
 //                         &-activo{
-//                             color: #525fe1;
+//                             color: $colorPage;
 //                             @extend .item-nav;
 //                         }
 //                     }
@@ -145,7 +145,7 @@
 //     height: 65px;
 //     .container{
 //         .navbar-brand{
-//             color: #525fe1;
+//             color: $colorPage;
 //             font-family: MuseoSansRounded;
 //             font-weight: 1000;
 //         }
