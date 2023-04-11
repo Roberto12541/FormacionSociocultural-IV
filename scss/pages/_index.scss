@@ -33,6 +33,19 @@
     }
 }
 
+.enlaces{
+    border: none;
+    padding: 5px 20px;
+    background-color: $colorPage;
+    color: white;
+    border-radius: 5px;
+    &:hover{
+        background-color: #f9fbfc;
+        border: solid 1px $colorPage;
+        color: $colorPage;
+    }
+}
+
 .contenedor__programa{
     width: 100%;
     background-color: #009e60;
