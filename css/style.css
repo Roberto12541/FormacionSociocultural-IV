@@ -15,7 +15,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: #009e60;
+  background: green;
 }
 
 /* Handle on hover */
@@ -51,7 +51,7 @@ body {
   margin: auto;
 }
 .navbar .container .navbar-brand {
-  color: #009e60;
+  color: green;
   font-weight: bold;
 }
 .navbar .container .navbar-toggler-icon {
@@ -67,17 +67,17 @@ body {
   font-weight: bold;
 }
 .navbar .container .offcanvas a:hover {
-  color: #009e60;
+  color: green;
 }
 .navbar .container .offcanvas .offcanvas-header .offcanvas-title {
-  color: #009e60;
+  color: green;
   font-weight: bold;
 }
 .navbar .container .offcanvas .offcanvas-body {
   padding: 0px 20px;
 }
 .navbar .container .offcanvas .offcanvas-body ul .active {
-  color: #009e60;
+  color: green;
   font-weight: bold;
 }
 .navbar .container .offcanvas .offcanvas-body ul .dropdown .dropdown-menu {
@@ -92,7 +92,7 @@ body {
 footer {
   width: 100%;
   padding: 20px 0px;
-  background-color: #009e60;
+  background-color: green;
   border-radius: 60px 60px 0px 0px;
 }
 
@@ -197,16 +197,16 @@ footer {
   font-weight: 1000;
 }
 .proximamente .contenedor .texto a {
-  border: 1px solid #009e60;
+  border: 1px solid green;
   border-radius: 5px;
   color: white;
   font-size: 18px;
   padding: 10px 15px;
-  background-color: #009e60;
+  background-color: green;
 }
 .proximamente .contenedor .texto a:hover {
   background-color: transparent;
-  color: #009e60;
+  color: green;
 }
 
 .contenedor__home {
@@ -229,14 +229,14 @@ footer {
 .contenedor__home .home .texto a {
   border: none;
   padding: 5px 20px;
-  background-color: #009e60;
+  background-color: green;
   color: white;
   border-radius: 5px;
 }
 .contenedor__home .home .texto a:hover {
   background-color: #f9fbfc;
-  border: solid 1px #009e60;
-  color: #009e60;
+  border: solid 1px green;
+  color: green;
 }
 .contenedor__home img {
   width: 100%;
@@ -273,7 +273,7 @@ footer {
   justify-content: center;
 }
 .contenedor__programa .programa .bloques .bloques__forma:hover {
-  background-color: #009e60;
+  background-color: green;
   border: #f9fbfc solid 1px;
   color: white;
   transform: scale(1.1);
@@ -400,7 +400,7 @@ footer {
   width: 100%;
   height: 95px;
   padding: 15px 10px 15px 20px;
-  background-color: #009e60;
+  background-color: green;
   color: white;
 }
 .titulo h3, .titulo h5, .titulo h6 {
@@ -471,7 +471,7 @@ footer {
   padding: 10px 10px 10px 25px;
 }
 .unidad .contenedor_unidad .temas .tema .temario a:hover {
-  color: #009e60;
+  color: green;
 }
 
 .unidad {
@@ -518,7 +518,7 @@ footer {
   font-size: 20px;
 }
 .unidad .contenedor_contenidos .contenidos .contenido a:hover {
-  color: #009e60;
+  color: green;
 }
 .unidad .contenedor_contenidos .contenidos .contenido .tema {
   display: flex;
@@ -539,7 +539,7 @@ footer {
 .unidad .contenedor_contenidos .contenidos .controles .control {
   width: 100%;
   height: 100%;
-  background-color: #009e60;
+  background-color: green;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -551,10 +551,10 @@ footer {
 }
 .unidad .contenedor_contenidos .contenidos .controles .control:hover {
   background-color: transparent;
-  border: 1px solid #009e60;
+  border: 1px solid green;
 }
 .unidad .contenedor_contenidos .contenidos .controles .control:hover a {
-  color: #009e60;
+  color: green;
 }
 .unidad .contenedor_contenidos .lateral {
   width: 270px;
@@ -591,7 +591,7 @@ footer {
   width: 100%;
   height: auto;
   padding: 15px 10px 15px 20px;
-  background-color: #009e60;
+  background-color: green;
   color: white;
   z-index: 10;
 }
@@ -646,7 +646,7 @@ footer {
 .info .contenedor_info .evaluaciones .controles .control {
   width: 100%;
   height: 100%;
-  background-color: #009e60;
+  background-color: green;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -658,10 +658,10 @@ footer {
 }
 .info .contenedor_info .evaluaciones .controles .control:hover {
   background-color: transparent;
-  border: 1px solid #009e60;
+  border: 1px solid green;
 }
 .info .contenedor_info .evaluaciones .controles .control:hover a {
-  color: #009e60;
+  color: green;
 }
 .info .contenedor_info .contenidos {
   max-width: 800px;
@@ -729,7 +729,7 @@ footer {
 .info .contenedor_info .contenidos .controles .control {
   width: 100%;
   height: 100%;
-  background-color: #009e60;
+  background-color: green;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -741,10 +741,10 @@ footer {
 }
 .info .contenedor_info .contenidos .controles .control:hover {
   background-color: transparent;
-  border: 1px solid #009e60;
+  border: 1px solid green;
 }
 .info .contenedor_info .contenidos .controles .control:hover a {
-  color: #009e60;
+  color: green;
 }
 .info .contenedor_info .lateral {
   width: 320px;
@@ -774,7 +774,7 @@ footer {
   border-bottom: 1px solid #d2d2d2;
 }
 .info .contenedor_info .lateral .bloque .unidad-numero {
-  color: #009e60;
+  color: green;
   font-weight: bold;
 }
 .info .contenedor_info .lateral .bloque .unidad-tema {
@@ -792,7 +792,7 @@ footer {
   font-size: 20px;
 }
 .info .contenedor_info .lateral .lateral-actividad {
-  background-color: #009e60;
+  background-color: green;
   color: white;
 }
 .info .contenedor_info .lateral .lateral-actividad .juego {
