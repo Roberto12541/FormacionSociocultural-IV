@@ -19,11 +19,23 @@
 
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container">
-            <a href="http://www.utn.edu.mx/" target="_blank" class="d-none d-md-block">
-                <img src="../../img/logo_utn.png" alt="" class="" height="45px">
-            </a>
-            <a class="navbar-brand" href="../../index.html">Aprendiendo a Aprender</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            <div class="d-none d-md-flex gap-3 align-items-center">
+                <a href="http://www.utn.edu.mx/" target="_blank" class="d-none d-md-block">
+                    <img src="../../img/logo_utn.png" alt="" class="" height="55px">
+                </a>
+                <div class="d-flex flex-column">
+                    <p class="m-0 fw-bold">Universidad Tecnológica de Nezahualcóyotl</p>
+                    <p class="m-0">División de Informática y Computación</p>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <a class="navbar-brand" href="../index.html">Aprendiendo a Aprender</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <a class="navbar-brand d-md-none" href="../index.html">Aprendiendo a Aprender</a>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>

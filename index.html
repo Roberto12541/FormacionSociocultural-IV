@@ -17,11 +17,23 @@
 
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container">
-            <a href="http://www.utn.edu.mx/" target="_blank" class="d-none d-md-block">
-                <img src="./img/logo_utn.png" alt="" class="" height="45px">
-            </a>
-            <a class="navbar-brand" href="./index.html">Aprendiendo a Aprender</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            <div class="d-none d-md-flex gap-3 align-items-center">
+                <a href="http://www.utn.edu.mx/" target="_blank" class="d-none d-md-block">
+                    <img src="./img/logo_utn.png" alt="" class="" height="55px">
+                </a>
+                <div class="d-flex flex-column">
+                    <p class="m-0 fw-bold">Universidad Tecnológica de Nezahualcóyotl</p>
+                    <p class="m-0">División de Informática y Computación</p>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <a class="navbar-brand" href="./index.html">Aprendiendo a Aprender</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <a class="navbar-brand d-md-none" href="./index.html">Aprendiendo a Aprender</a>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -142,30 +154,24 @@
     </section>
 
     <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
+        <h2 class="pb-2 border-bottom fw-bold">Unidades</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                    style="background-image: url('unsplash-photo-1.jpg');">
+                    style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/pensamiento\ creativo\ banner.jpg);">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Pensamiento Creativo</h3>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
-                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                <img src="img/logo_utn.png" alt="Bootstrap" width="32" height="32"
                                     class="rounded-circle border border-white">
-                            </li>
-                            <li class="d-flex align-items-center me-3">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#geo-fill"></use>
-                                </svg>
-                                <small>Earth</small>
                             </li>
                             <li class="d-flex align-items-center">
                                 <svg class="bi me-2" width="1em" height="1em">
                                     <use xlink:href="#calendar3"></use>
                                 </svg>
-                                <small>3d</small>
+                                <small>Unidad I</small>
                             </li>
                         </ul>
                     </div>
@@ -174,26 +180,20 @@
 
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                    style="background-image: url('unsplash-photo-2.jpg');">
+                    style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/desarrollo\ de\ ideas\ banner.jpg); background-position: center; background-size: cover;">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Desarrollo de Ideas
                         </h3>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
-                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                <img src="img/logo_utn.png" alt="Bootstrap" width="32" height="32"
                                     class="rounded-circle border border-white">
-                            </li>
-                            <li class="d-flex align-items-center me-3">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#geo-fill"></use>
-                                </svg>
-                                <small>Pakistan</small>
                             </li>
                             <li class="d-flex align-items-center">
                                 <svg class="bi me-2" width="1em" height="1em">
                                     <use xlink:href="#calendar3"></use>
                                 </svg>
-                                <small>4d</small>
+                                <small>Unidad II</small>
                             </li>
                         </ul>
                     </div>
@@ -202,25 +202,19 @@
 
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                    style="background-image: url('unsplash-photo-3.jpg');">
+                    style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/administracion\ por\ valores.jpg); background-position: center center; background-size: cover;">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+                        <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Administración por Valores</h2>
                         <ul class="d-flex list-unstyled mt-auto">
                             <li class="me-auto">
-                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                <img src="img/logo_utn.png" alt="Bootstrap" width="32" height="32"
                                     class="rounded-circle border border-white">
-                            </li>
-                            <li class="d-flex align-items-center me-3">
-                                <svg class="bi me-2" width="1em" height="1em">
-                                    <use xlink:href="#geo-fill"></use>
-                                </svg>
-                                <small>California</small>
                             </li>
                             <li class="d-flex align-items-center">
                                 <svg class="bi me-2" width="1em" height="1em">
                                     <use xlink:href="#calendar3"></use>
                                 </svg>
-                                <small>5d</small>
+                                <small>Unidad III</small>
                             </li>
                         </ul>
                     </div>
