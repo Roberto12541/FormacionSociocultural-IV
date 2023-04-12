@@ -3,6 +3,20 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+#hanging-icons{
+    a{
+        border: none;
+        padding: 5px 20px;
+        background-color: $colorPage;
+        color: white;
+        border-radius: 5px;
+        &:hover{
+            background-color: #f9fbfc;
+            border: solid 1px $colorPage;
+            color: $colorPage;
+        }
+    }
+}
 .contenedor__home{
     width: 100%;
     padding: 0px 20px;
