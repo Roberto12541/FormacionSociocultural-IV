@@ -145,20 +145,19 @@
             <div class="lateral d-none d-md-block">
                 <h4>Quizzes</h4>
                 <div class="juego">
-                    <a href="">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <h6 class="tipo">Sopa de Letras</h6>
-                        <h6 class="temaJuego">Inteligencias Multiples</h6>
-                        <img src="../img/sombreros.png" alt="" class="img-fluid">
+                        <h6 class="temaJuego">Técnicas de Creatividad</h6>
+                        <div class="text-center">
+                            <img src="../img/sopa de letras.png" alt="" class="w-50">
+                        </div>
                     </a>
-                    <a href="">
-                        <h6 class="tipo">Sopa de Letras</h6>
-                        <h6 class="temaJuego">Inteligencias Multiples</h6>
-                        <img src="../img/sombreros.png" alt="" class="img-fluid">
-                    </a>
-                    <a href="">
-                        <h6 class="tipo">Sopa de Letras</h6>
-                        <h6 class="temaJuego">Inteligencias Multiples</h6>
-                        <img src="../img/sombreros.png" alt="" class="img-fluid">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#segunda">
+                        <h6 class="tipo">Ordena las letras</h6>
+                        <h6 class="temaJuego">Técnicas de Creatividad</h6>
+                        <div class="text-center">
+                            <img src="../img/ordenar letras" alt="" class="w-50">
+                        </div>
                     </a>
                 </div>
             </div>
@@ -206,6 +205,40 @@
             <p>Autores: <br>- Cuevas Martínez Josué Caleb<br>- Miranda Meza Roberto Adrián<br><br>© 2023 Universidad Tecnológica de Nezahualcóyotl <br></p>
         </div>
     </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sopa de letras: Técnicas de Creatividad</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <iframe width="1080" height="550" frameborder="0" src="https://es.educaplay.com/juego/14553323-tecnicas_de_creatividad.html"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="segunda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ordena las letras: Técnicas de Creatividad</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <iframe width="1080" height="550" frameborder="0" src="https://es.educaplay.com/juego/14553394-tecnicas_de_creatividad.html"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
